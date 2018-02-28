@@ -1,0 +1,56 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context="com.anacoimbra.aterminator.FactFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Conte-nos com detalhes o que aconteceu"
+        android:paddingTop="6dp"
+        android:background="@drawable/edit_round_background">
+        <EditText
+            android:id="@+id/fact"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            android:gravity="top" />
+    </android.support.design.widget.TextInputLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="16dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:background="@drawable/edit_round_background"
+        android:hint="Como você gostaria de ser compensado pelo dano sofrido?">
+
+        <EditText
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:gravity="top"
+            android:background="@android:color/transparent"
+            android:padding="8dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="18dp" />
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_round_background"
+        android:textColor="@android:color/white"
+        android:text="Enviar"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

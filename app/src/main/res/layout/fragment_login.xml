@@ -1,0 +1,47 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.anacoimbra.aterminator.LoginFragment">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/facebook_logo"
+        android:background="@drawable/button_round_background"
+        android:textColor="@android:color/white"
+        android:paddingStart="18dp"
+        android:text="Entrar com Facebook" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_outline_round_background"
+        android:textColor="@color/colorPrimary"
+        android:drawableStart="@drawable/google"
+        android:paddingStart="18dp"
+        android:text="Entrar com Google"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

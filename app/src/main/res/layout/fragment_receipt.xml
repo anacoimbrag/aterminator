@@ -1,0 +1,43 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.anacoimbra.aterminator.ReceiptFragment">
+
+    <ImageButton
+        android:id="@+id/picture"
+        android:layout_width="200dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/recept"
+        android:scaleType="fitCenter"
+        android:padding="1dp"
+        android:background="@drawable/round_background"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="Tire uma foto da fatura que possui o problema de cobrança indevida"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_round_background"
+        android:textColor="@android:color/white"
+        android:text="Continuar"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
